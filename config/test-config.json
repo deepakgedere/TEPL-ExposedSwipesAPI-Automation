@@ -1,0 +1,37 @@
+{
+  "api": {
+    "baseUrl": "https://localhost:4001",
+    "validAuthKey": "324567f32dfhdeu",
+    "invalidAuthKey": "INA9f3Kx7Qm2ZpL8cV4R1sW6tYh0JbXn5DgUeC",
+    "serialNo": 1,
+    "serverInsrtTime" : "2026-07-16T11:40:54",
+    "dtStart" : "2026-07-13T15:00:00",
+    "dtEnd" : "2026-07-13T16:00:00"
+  },
+  "tblConfiguration" : {
+    "EmployeeNoPrefix" : "71"
+  },
+  "database": {
+    "user": "sa",
+    "password": "Pass@123",
+    "server": "LAPTOP-DEEPAK",
+    "port": 1433,
+    "database": "SecoreX_MG_1",
+    "options": {
+      "instanceName": "SQL2025EXPRESS",
+      "encrypt": false,
+      "trustServerCertificate": true
+    }
+  },
+  "readerNames": {
+    "valid": ["/Reader/1", "/Reader/2", "/Reader/3"],
+    "single": ["ReaderA"],
+    "initial": ["Reader_Initial_1", "Reader_Initial_2"],
+    "updated": ["Reader_New_X", "Reader_New_Y", "Reader_New_Z"],
+    "special": ["Reader-1", "Reader@2", "Reader_#3", "Rëader$4"],
+    "duplicate": ["Reader_1", "Reader_1", "Reader_2"],
+    "empty": [],
+    "largePrefix": "Reader_",
+    "largeCount": 100
+  }
+}

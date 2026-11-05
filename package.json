@@ -1,0 +1,29 @@
+{
+  "name": "playwright-test-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "codegen": "npx playwright codegen"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/express": "^4.17.21",
+    "@types/mssql": "^12.3.0",
+    "@types/node": "^20.14.0",
+    "express": "^5.2.1",
+    "playwright": "^1.60.0",
+    "playwright-mcp": "^0.0.19",
+    "typescript": "^5.5.0"
+  },
+  "dependencies": {
+    "mssql": "^12.5.4"
+  }
+}
